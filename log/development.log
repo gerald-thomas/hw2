@@ -2877,3 +2877,228 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 150.101.201.234 at 2013-08-01 13:09:36 +0000
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?sort=release_date" for 150.101.201.234 at 2013-08-01 22:14:02 +0000
+  Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"release_date"}
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" ORDER BY release_date ASC[0m
+Rendered movies/index.html.haml within layouts/application (51.2ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 150.101.201.234 at 2013-08-01 22:14:04 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 150.101.201.234 at 2013-08-01 22:14:04 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 150.101.201.234 at 2013-08-01 22:14:04 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 150.101.201.234 at 2013-08-01 22:14:04 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-01 22:14:14 +0000
+Served asset /rails.png - 200 OK (1ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-01 22:14:19 +0000
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 150.101.201.234 at 2013-08-01 22:14:28 +0000
+  Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (9.3ms)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 150.101.201.234 at 2013-08-01 22:14:28 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 150.101.201.234 at 2013-08-01 22:14:28 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 150.101.201.234 at 2013-08-01 22:14:28 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 150.101.201.234 at 2013-08-01 22:14:28 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?sort=title" for 150.101.201.234 at 2013-08-01 22:14:33 +0000
+  Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"title"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" ORDER BY title ASC[0m
+Rendered movies/index.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 150.101.201.234 at 2013-08-01 22:14:33 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 150.101.201.234 at 2013-08-01 22:14:33 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 150.101.201.234 at 2013-08-01 22:14:33 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 150.101.201.234 at 2013-08-01 22:14:33 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-01 22:15:44 +0000
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-08-01 22:18:30 +0000
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-01 22:21:18 +0000
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-01 22:21:28 +0000
+Served asset /rails.png - 304 Not Modified (60ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-01 22:21:35 +0000
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-01 22:21:38 +0000
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 150.101.201.234 at 2013-08-01 22:21:57 +0000
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (16.4ms)
+Completed 200 OK in 101ms (Views: 99.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 150.101.201.234 at 2013-08-01 22:21:57 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 150.101.201.234 at 2013-08-01 22:21:58 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 150.101.201.234 at 2013-08-01 22:21:58 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 150.101.201.234 at 2013-08-01 22:21:58 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-01 22:33:10 +0000
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-01 22:33:15 +0000
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-01 22:38:22 +0000
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-01 22:38:26 +0000
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-01 22:38:29 +0000
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-02 05:22:04 +0000
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails.png" for 150.101.201.234 at 2013-08-02 05:22:08 +0000
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 150.101.201.234 at 2013-08-02 05:25:00 +0000
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (52.8ms)
+Completed 200 OK in 107ms (Views: 105.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 150.101.201.234 at 2013-08-02 05:25:02 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 150.101.201.234 at 2013-08-02 05:25:02 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 150.101.201.234 at 2013-08-02 05:25:02 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 150.101.201.234 at 2013-08-02 05:25:02 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?sort=title" for 150.101.201.234 at 2013-08-02 05:25:14 +0000
+  Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"title"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" ORDER BY title ASC
+Rendered movies/index.html.haml within layouts/application (10.4ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 150.101.201.234 at 2013-08-02 05:25:15 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 150.101.201.234 at 2013-08-02 05:25:15 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 150.101.201.234 at 2013-08-02 05:25:15 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 150.101.201.234 at 2013-08-02 05:25:15 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?sort=release_date" for 150.101.201.234 at 2013-08-02 05:25:18 +0000
+  Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"release_date"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" ORDER BY release_date ASC[0m
+Rendered movies/index.html.haml within layouts/application (12.2ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 150.101.201.234 at 2013-08-02 05:25:18 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 150.101.201.234 at 2013-08-02 05:25:18 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 150.101.201.234 at 2013-08-02 05:25:18 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 150.101.201.234 at 2013-08-02 05:25:18 +0000
+Served asset /application.js - 304 Not Modified (0ms)
